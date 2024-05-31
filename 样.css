@@ -1,0 +1,13 @@
+div{
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+}
+div img{
+    transition: all 0.4s;
+}
+div img:hover{
+    transform: scale(1.1);
+}
